@@ -1,0 +1,15 @@
+{
+  "name": "about",
+  "route": "about",
+  "components": [
+    {
+      "type": "section-header",
+      "props": {
+        "label": "About",
+        "title": "Sahil Kalkal",
+        "subtitle": "Chora jaat ka, samosa 8 ka."
+      },
+      "children": []
+    }
+  ]
+}

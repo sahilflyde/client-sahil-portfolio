@@ -1,0 +1,79 @@
+{
+  "name": "home",
+  "route": "home",
+  "components": [
+    {
+      "type": "section-header",
+      "props": {
+        "label": "Hello world",
+        "title": "Sahil Kalkal Web Dev 3",
+        "subtitle": "Dynamic Subtitle"
+      },
+      "children": []
+    },
+    {
+      "type": "image-card",
+      "props": {
+        "heading": "Demo Heading",
+        "description": "Lorem Ipsum",
+        "imageLink": "https://ik.imagekit.io/flyde/Hirezy/Widget.png"
+      },
+      "children": []
+    },
+    {
+      "type": "grid-section",
+      "props": {
+        "columns": 4,
+        "gap": "24px",
+        "minColWidth": "200px",
+        "showHeader": true,
+        "label": "Features",
+        "title": "Features",
+        "subtitle": "Hello world"
+      },
+      "children": [
+        {
+          "type": "image-card",
+          "props": {
+            "heading": "Grid Image",
+            "description": "Inside Grid",
+            "imageLink": "https://ik.imagekit.io/flyde/Hirezy/Widget.png"
+          }
+        },
+        {
+          "type": "image-card",
+          "props": {
+            "heading": "Grid Image",
+            "description": "Inside Grid",
+            "imageLink": "https://ik.imagekit.io/flyde/Hirezy/Widget.png"
+          }
+        },
+        {
+          "type": "image-card",
+          "props": {
+            "heading": "Grid Image",
+            "description": "Inside Grid",
+            "imageLink": "https://ik.imagekit.io/flyde/Hirezy/Widget.png"
+          }
+        },
+        {
+          "type": "image-card",
+          "props": {
+            "heading": "Grid Image",
+            "description": "Inside Grid",
+            "imageLink": "https://ik.imagekit.io/flyde/Hirezy/Widget.png"
+          }
+        }
+      ]
+    },
+    {
+      "type": "section-header",
+      "props": {
+        "label": "Dynamic Label",
+        "title": "Dynamic Title",
+        "subtitle": "Dynamic Subtitle"
+      },
+      "children": []
+    }
+  ]
+}
